@@ -8,6 +8,7 @@ export const contactQuery = createApi({
   reducerPath: 'contactsApi',
   baseQuery,
   tagTypes: ['Post'],
+
   endpoints: builder => ({
     getAllContact: builder.query({
       query: () => `/contacts`,
